@@ -66,6 +66,8 @@ Everything in the CAD file is to be 3D printed, apart from that:<br>
 - 1x 4.7K resistor for the photoresistor to ground
 - 1x MDF board approx 300mm x 400mm (if you have larger reels than 100m/300ft maybe increase the dimensions)
 
+<b>It is important to note that the stepper drivers are set to maximum micro stepping.</b>
+
 ### Light source
 The light source can either be an LED diode on a PCB or an MR16 Osram lamp. Both variations exist in the CAD, the MR16 is just hidden. <br>
 The code hints at light intensity controls, but I just ended up having it on max and letting the camera do auto exposure. So I leave those electronics out, but you can read more about it at: https://forums.kinograph.cc/t/lighting-research-results/1720/69
