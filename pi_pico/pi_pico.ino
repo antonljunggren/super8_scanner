@@ -20,9 +20,9 @@ int sprocketThresholdOffset = 30;
 #define FEED_DIR_PIN 3
 #define FEED_EN_PIN 1
 
-#define TAKE_UP_STEP_PIN 6
+#define TAKE_UP_STEP_PIN 8
 #define TAKE_UP_DIR_PIN 7
-#define TAKE_UP_EN_PIN 8
+#define TAKE_UP_EN_PIN 6
 
 #define LOW_LIGHT_LED 16
 #define NORMAL_LIGHT_LED 17
