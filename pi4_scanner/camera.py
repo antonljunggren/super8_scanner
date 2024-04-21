@@ -26,6 +26,7 @@ class Camera:
         controls.AnalogueGain = 1.0
         controls.AwbMode = libcamera.controls.AwbModeEnum.Auto
         controls.AwbEnable = True
+        controls.AeConstraintMode = libcamera.controls.AeConstraintModeEnum.Highlight #Highlight, Normal, Shadows
 
         #controls.ColourGains = self.__color_gains
         controls.AeEnable = True
